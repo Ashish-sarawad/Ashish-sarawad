@@ -306,6 +306,13 @@
     <button class="tablinks" onclick="openTab(event, 'container')">Containers</button>
     <button class="tablinks" onclick="openTab(event, 'monitoring')">Monitoring</button>
     <button class="tablinks" onclick="openTab(event, 'scripting')">Scripting</button>
+    <button class="tablinks" onclick="openTab(event, 'quality')">Quality</button>
+    <button class="tablinks" onclick="openTab(event, 'buildtools')">Build Tools</button>
+    <button class="tablinks" onclick="openTab(event, 'configuration')">Configuration</button>
+    <button class="tablinks" onclick="openTab(event, 'imagerepository')">Image Repository</button>
+    <button class="tablinks" onclick="openTab(event, 'security')">Security</button>
+    <button class="tablinks" onclick="openTab(event, 'database')">Database</button>
+    <!-- <button class="tablinks" onclick="openTab(event, 'development')">Development</button> -->
   </div>
   
 
@@ -315,6 +322,7 @@
       <li><span class="bar-expand aws"></span><em>AWS</em></li>
       <li><span class="bar-expand azure"></span><em>Azure</em></li>
       <li><span class="bar-expand gcp"></span><em>GCP</em></li>
+      <li><span class="bar-expand tfcloud"></span><em>TerraformCloud</em></li>
     </ul>
   </div>
 
@@ -331,6 +339,7 @@
     <ul class="skills">
       <li><span class="bar-expand jenkins"></span><em>Jenkins</em></li>
       <li><span class="bar-expand codepipeline"></span><em>Aws Codepipeline</em></li>
+      <li><span class="bar-expand azure_devops"></span><em>Azure Devops</em></li>
       <li><span class="bar-expand github_actions"></span><em>Github Actions</em></li>
       <li><span class="bar-expand gitlab"></span><em>GitLab CI</em></li>
       <li><span class="bar-expand spinnaker"></span><em>Spinnaker</em></li>
@@ -374,8 +383,9 @@
         <li><span class="bar-expand promethues"></span><em>Promethues</em></li>
         <li><span class="bar-expand grafana"></span><em>Grafana</em></li>
         <li><span class="bar-expand cloudwatch"></span><em>AWS Cloudwatch</em></li>
+        <li><span class="bar-expand opensearch"></span><em>AWS Opensearch</em></li>
         <li><span class="bar-expand datadog"></span><em>Datadog</em></li>
-        <li><span class="bar-expand elk_stack"></span><em>ELK Stack</em></li>
+        <li><span class="bar-expand elk_stack"></span><em>Elastic/ELK/EFK Stack</em></li>
         <li><span class="bar-expand nagios"></span><em>Nagios</em></li>
       </ul>
     </div>
@@ -388,9 +398,80 @@
         <li><span class="bar-expand python"></span><em>Python scripting</em></li>
       </ul>
     </div>
-</div>
 
-              <!-- end skill-bars -->
+    <!-- quality tab content -->
+    <div id="quality" class="tabcontent">
+      <ul class="skills">
+        <li><span class="bar-expand sonarqube"></span><em>SonarQube</em></li>
+        <li><span class="bar-expand codeguru"></span><em>AWS CodeGuru</em></li>
+        <li><span class="bar-expand jmeter"></span><em>JMeter</em></li>
+      </ul>
+    </div>
+
+        <!-- buildtools tab content -->
+    <div id="buildtools" class="tabcontent">
+      <ul class="skills">
+        <li><span class="bar-expand maven"></span><em>Maven</em></li>
+        <li><span class="bar-expand gradle"></span><em>Gradle</em></li>
+        <li><span class="bar-expand codebuild"></span><em>AWS CodeBuild</em></li>
+        <li><span class="bar-expand gitlabrunner"></span><em>GitLab Runner</em></li>
+      </ul>
+    </div>
+
+        <!-- configuration tab content -->
+    <div id="configuration" class="tabcontent">
+      <ul class="skills">
+        <li><span class="bar-expand ansible"></span><em>Ansible</em></li>
+        <li><span class="bar-expand chef"></span><em>Chef</em></li>
+        <li><span class="bar-expand puppet"></span><em>Puppet</em></li>
+      </ul>
+    </div>
+
+      <!-- image_repository tab content -->
+    <div id="imagerepository" class="tabcontent">
+      <ul class="skills">
+        <li><span class="bar-expand dockerhub"></span><em>DockerHub</em></li>
+        <li><span class="bar-expand nexus"></span><em>Nexus</em></li>
+        <li><span class="bar-expand gitlabregistry"></span><em>GitLab Registry</em></li>
+        <li><span class="bar-expand ecr"></span><em>AWS ECR</em></li>
+        <li><span class="bar-expand acr"></span><em>Azure ACR</em></li>
+        <li><span class="bar-expand gcr"></span><em>GCP GCR</em></li>
+      </ul>
+    </div>
+
+          <!-- Security tab content -->
+    <div id="security" class="tabcontent">
+      <ul class="skills">
+        <li><span class="bar-expand vault"></span><em>Vault</em></li>
+        <li><span class="bar-expand secretmanager"></span><em>AWS Secrets Manager</em></li>
+        <li><span class="bar-expand securityhub"></span><em>AWS SecurityHub</em></li>
+        <li><span class="bar-expand guarduty"></span><em>AWS Guarduty</em></li>
+      </ul>
+    </div>
+
+          <!-- database tab content -->
+    <div id="database" class="tabcontent">
+      <ul class="skills">
+        <li><span class="bar-expand mysql"></span><em>MySQL</em></li>
+        <li><span class="bar-expand postgres"></span><em>PostgresSQL</em></li>
+      </ul>
+    </div>
+
+          <!-- development tab content -->
+    <div id="development" class="tabcontent">
+      <ul class="skills">
+        <li><span class="bar-expand figma"></span><em>Figma UI/UX</em></li>
+        <li><span class="bar-expand html"></span><em>HTML/CSS</em></li>
+        <li><span class="bar-expand js"></span><em>JavaScript</em></li>
+        <li><span class="bar-expand java"></span><em>Java</em></li>
+        <li><span class="bar-expand nodejs"></span><em>NodeJs</em></li>
+        <li><span class="bar-expand reactjs"></span><em>ReactJS</em></li>
+        <li><span class="bar-expand springboot"></span><em>SpringBoot</em></li>
+      </ul>
+    </div>
+</div>
+</div>
+<!-- end skill-bars -->
             </div>
             <!-- main-col end -->
           </div>

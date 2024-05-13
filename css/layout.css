@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -368,7 +368,10 @@ ul#nav li.current a { color: #F06000; }
    width: 60%;
 }
 .gcp {
-   width: 30%;
+   width: 40%;
+}
+.tfcloud {
+   width: 70%;
 }
 .terraform {
    width: 80%;
@@ -383,10 +386,13 @@ ul#nav li.current a { color: #F06000; }
    width: 90%;
 }
 .github_actions {
-   width: 60%;
+   width: 70%;
 }
 .spinnaker {
    width: 60%;
+}
+.azure_devops {
+   width: 70%;
 }
 .gitlab {
    width: 80%;
@@ -409,7 +415,6 @@ ul#nav li.current a { color: #F06000; }
 .windows {
    width: 70%;
 }
-
 .docker {
    width: 85%;
 }
@@ -449,6 +454,9 @@ ul#nav li.current a { color: #F06000; }
 .nagios {
    width: 60%;
 }
+.opensearch {
+   width: 70%;
+}
 .bash {
    width: 80%;
 }
@@ -458,8 +466,93 @@ ul#nav li.current a { color: #F06000; }
 .python {
    width: 60%;
 }
-
-
+.sonarqube {
+   width: 70%;
+}
+.codeguru {
+   width: 60%;
+}
+.jmeter {
+   width: 60%;
+}
+.maven {
+   width: 70%;
+}
+.gradle {
+   width: 70%;
+}
+.codebuild {
+   width: 60%;
+}
+.gitlabrunner {
+   width: 60%;
+}
+.ansible {
+   width: 70%;
+}
+.chef {
+   width: 40%;
+}
+.puppet {
+   width: 40%;
+}
+.dockerhub {
+   width: 80%;
+}
+.nexus {
+   width: 70%;
+}
+.gitlabregistry {
+   width: 70%;
+}
+.ecr {
+   width: 80%;
+}
+.acr {
+   width: 60%;
+}
+.gcr {
+   width: 60%;
+}
+.vault {
+   width: 60%;
+}
+.secretmanager {
+   width: 70%;
+}
+.securityhub {
+   width: 70%;
+}
+.guarduty {
+   width: 70%;
+}
+.mysql {
+   width: 50%;
+}
+.postgres {
+   width: 40%;
+}
+/* .html {
+   width: 50%;
+}
+.js {
+   width: 40%;
+}
+.java {
+   width: 30%;
+}
+ .nodejs {
+   width: 50%;
+}
+.reactjs {
+   width: 50%;
+}
+.springboot {
+   width: 50%;
+}
+.figma {
+   width: 70%;
+}  */
 
 /* Style the tabs */
 /* Style the tab text */
@@ -478,11 +571,11 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 2rem;
    background: none;
    font-size: 16px;
-   margin-right: 20px; /* Adjust spacing between tabs */
+   margin-right: 10px; /* Adjust spacing between tabs */
    text-decoration: none; /* Remove default underline */
    color: #333; /* Default tab text color */
    transition: all 0.5s;    /* Smooth transition */
-   flex: 0 0 auto; /* Allow tabs to shrink and grow as needed */
+   flex: auto; /* Allow tabs to shrink and grow as needed */
    padding: 10px 20px; /* Adjust padding as needed */
  }
  /* Add underline to active tab */
