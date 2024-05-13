@@ -449,10 +449,28 @@ ul#nav li.current a { color: #F06000; }
 .nagios {
    width: 60%;
 }
+.bash {
+   width: 80%;
+}
+.pwsh {
+   width: 60%;
+}
+.python {
+   width: 60%;
+}
+
 
 
 /* Style the tabs */
 /* Style the tab text */
+
+.tabs {
+   display: flex;
+   flex-wrap: wrap; /* Allow tabs to wrap to a new line */
+   justify-content: space-between; /* Distribute tabs evenly */
+   padding: 0 10px; /* Add padding to the sides */
+ }
+
 .tablinks {
    cursor: pointer;
    border: none;
@@ -464,6 +482,8 @@ ul#nav li.current a { color: #F06000; }
    text-decoration: none; /* Remove default underline */
    color: #333; /* Default tab text color */
    transition: all 0.5s;    /* Smooth transition */
+   flex: 0 0 auto; /* Allow tabs to shrink and grow as needed */
+   padding: 10px 20px; /* Adjust padding as needed */
  }
  /* Add underline to active tab */
  .tablinks.active {
