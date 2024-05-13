@@ -538,9 +538,6 @@ ul#nav li.current a { color: #F06000; }
 .js {
    width: 40%;
 }
-.java {
-   width: 30%;
-}
  .nodejs {
    width: 50%;
 }
@@ -552,8 +549,7 @@ ul#nav li.current a { color: #F06000; }
 }
 .figma {
    width: 70%;
-}  */
-
+}   */
 /* Style the tabs */
 /* Style the tab text */
 
