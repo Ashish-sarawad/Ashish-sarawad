@@ -1524,7 +1524,7 @@ footer{
     transform: rotate(45deg);
 }
 .footer-bottom{
-    background-color: #0b0b0b;
+   background-color: #0b0b0b;
    width: 100%;
    display: flex;
    align-items: center;
